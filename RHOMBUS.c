@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main () {
     /* to print zero and one trangle
-            * * * 
-            * *
-            * 
-            * ...and so on
+           *****
+         *****
+       *****...and so on
     */
 
      int n ,m ;
@@ -16,8 +15,8 @@ int main () {
         
         for(int j=1;j<=n-i; j++) {
              
-            printf("@");
-        } 
+            printf(" ");
+        }
         for(int k=1;k<=m; k++){
             printf("*");
         
