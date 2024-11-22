@@ -1,3 +1,12 @@
+/*    to print alphabet triangle
+    A    
+   ABA   
+  ABCAB  
+ ABCDABC 
+ABCDEABCD
+
+*/
+
 #include<stdio.h>
 int main () {
      int n  ;
