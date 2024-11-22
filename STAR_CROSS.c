@@ -1,7 +1,14 @@
+/*  star cross for odd number
+*   *
+ * *
+  *
+ * *
+*   *
+           */
+
+
 #include<stdio.h>
 int main (){
-    // star cross for odd number
-
     int n,b =0,c=0;
     printf("enter any odd number");
     scanf("%d",&n);
