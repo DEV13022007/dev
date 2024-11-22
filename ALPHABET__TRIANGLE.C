@@ -1,3 +1,11 @@
+/* to print 
+    A
+   AB
+  ABC
+ ABCD
+ABCDE
+*/
+
 #include<stdio.h>
 int main (){
 int n ,a,w;
