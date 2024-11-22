@@ -1,4 +1,4 @@
-/*  to print star
+/*  to print starplus
   *  
   *
 *****
