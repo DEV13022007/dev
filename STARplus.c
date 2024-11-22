@@ -1,3 +1,12 @@
+/*  to print star
+  *  
+  *
+*****
+  *
+  *
+   
+  */
+
 #include<stdio.h>
 int main () {
      int n;
