@@ -1,6 +1,11 @@
 #include<stdio.h>
 int main () {
-    //to print hollow rectangle
+    /* to print hollow rectangl 
+         *******
+         *     *
+         *     *
+         *******
+    */
      int m,n;
     printf("enter row ");
     scanf("%d",&m);
