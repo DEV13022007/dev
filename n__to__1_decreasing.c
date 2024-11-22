@@ -1,3 +1,8 @@
+/* to print
+for 5
+5 4 3 2 1
+*/
+
 #include<stdio.h>
 void number(int n ){
     if (n==0){return;}
