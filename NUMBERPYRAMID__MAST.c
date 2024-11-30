@@ -5,7 +5,6 @@
  1234123
 123451234
 */
-
 #include<stdio.h>
 int main () {
      int n  ;
