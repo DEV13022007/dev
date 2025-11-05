@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stylish Salary Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="bg-gradient">
+    <div class="container">
+      <h1>Salary Generator 💰</h1>
+      <form id="salary-form">
+        <div class="form-group">
+          <label>Basic Salary</label>
+          <input type="number" id="basic" required placeholder="Enter your basic salary" />
+        </div>
+        <div class="form-group">
+          <label>Allowances</label>
+          <input type="number" id="allowances" required placeholder="Enter allowances" />
+        </div>
+        <div class="form-group">
+          <label>Deductions</label>
+          <input type="number" id="deductions" required placeholder="Enter deductions" />
+        </div>
+        <button type="button" onclick="calculateSalary()">Generate Salary</button>
+        <button type="button" onclick="clearForm()">Clear</button>
+      </form>
+      <div id="result" class="result-box"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
